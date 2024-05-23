@@ -16,6 +16,7 @@ def main():
 
     try:
         server.bind((HOST, PORT))
+        print(f"Server started at {HOST} and the port used is: {PORT}")
     except:
         print (f"Unable to connect to Host: {HOST} and Port: {PORT}")
     
